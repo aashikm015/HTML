@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html {
+  scroll-behavior: smooth;
+  background-color: #020606;
+}
+:root {
+  --white-op85: #ffffff95;
+  --white: #ffffff;
+  --blue: #51e8ef;
+}
+#section-home {
+  background-image: url("./bikeweb_03-Current-View.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px 5%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+}
+.logo-text {
+  margin-left: 20px;
+}
+
+.logo-text h6:nth-child(1) {
+  color: var(--white);
+  font-family: "Cabin", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+.logo-text h6:nth-child(2) {
+  color: var(--blue);
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+nav {
+  width: 50%;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item a {
+  color: var(--white-op85);
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-family: "Karla", sans-serif;
+  transition: 0.5s;
+}
+.nav-item a:hover {
+  color: var(--blue);
+  font-size: 18px;
+}
+.container {
+  height: 90vh;
+}
+.content {
+  height: 40vh;
+  width: 25vw;
+  position: absolute;
+  top: 45vh;
+}
+.content > h2 {
+  font-family: "Cabin", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: var(--white);
+}
+.content > h1 {
+  font-family: "Karla", sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-bottom: 10px;
+}
+.content > p {
+  font-family: "Rajdhani", sans-serif;
+  color: var(--white);
+}
+.section-reverse {
+  height: 20vh;
+  background-image: url("./bikeweb_03-Current-View.png");
+  transform: scaleY(-1);
+
+  background-position: bottom;
+  background-size: cover;
+}
+.section-reverse-black {
+  height: 20vh;
+  background-color: #000000;
+}
+.transform {
+  transform: scaleY(-1);
+}
+.footer {
+  width: 65vw;
+  position: absolute;
+  right: 7vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.005);
+  box-shadow: 0 4px 32px 0 #51e8ef20;
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.01);
+}
+.footer-items {
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: 0 10px;
+}
+.footer-item h4:nth-child(1) {
+  margin-bottom: 5px;
+  font-family: "Karla", sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.footer-item h4:nth-child(2) {
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.mobile-view-block {
+  display: none;
+}
+
+@media screen and (max-width: 1350px) {
+  .mobile-view-block {
+    display: block;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+  }
+  .mobile-view-block img {
+    margin: 10vh 45vw;
+  }
+  .center {
+    margin: 10vh 30vw;
+  }
+
+  body {
+    overflow-y: hidden;
+  }
+}
