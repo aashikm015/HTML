@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home-PREZZIE</title>
+	<link rel="icon" href="image/logo.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animated.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<style type="text/css">
+    
+    .blinking,.one
+ {
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: red; }
+    50%{    color:olive green; }
+    99%{    color:aqua;  }
+    100%{   color: burlywood;    }
+}
+.one {
+      font-size: 17pt;
+      font-weight: bold;
+      font-style: italic;
+      color: white;
+      text-transform: uppercase;
+      margin-top: 10pt;
+      margin-bottom: 20pt;
+    
+ /*font-size: 17pt;*/
+  /*color: #fff;*/
+  text-align: center;
+ }
+
+@-webkit-keyframes one {
+  from {
+    text-shadow: 2px 2px 1px orange, 2px 2px 1px blue, 3px 3px 1px burlywood, 4px 4px 1px hotpink;
+  }
+  
+  to {
+    text-shadow: 3px 3px 2px orange, 3px 3px 2px blue, 4px 4px 2px burlywood, 5px 5px 2px hotpink;
+  }
+}
+  </style>
+</head>
+<body>
+      <div id="banner" >
+
+      	  <ul class="animated fadeInDown">
+      	            <li class="cactive"><a href="#">HOME</a></li>
+	    		    <li class="animated ab"><a href="login.html">LOGIN</a></li>
+	    		    <li class="animated ab"><a href="services.html">SERVICES</a></li>
+	    		    <li class="animated ab"><a href="about.html">ABOUT</a></li>
+	    		    <li class="animated ab"><a href="contact.html">CONTACT</a></li>
+	    		   
+             
+	      
+	      </ul>
+	      
+	     </div>
+	     <div id="hed">
+	      
+          <p  class="animated a1">PREZZIE</p><p class="animated a2">No makeup,No pants,No problem</p>
+			<input type="text" name="search" placeholder="  Search" class="animated s1"> <a href="#" class="animated b1">Search</a>
+        </div>
+
+<div id="ours">
+  <b>Our Products</b>
+</div>
+
+
+
+
+<div class="galleryContainer">
+    <div class="slideShowContainer">
+        <div id="playPause" onclick="playPauseSlides()"></div>
+        <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+        <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+        <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+        <div class="imageHolder">
+            <img src="image/img_1.jpeg">1366X768
+            <p class="captionText"></p>
+        </div>
+        <div class="imageHolder">
+            <img src="image/img (8).jpeg">
+            <p class="captionText"></p>
+        </div>
+        <div class="imageHolder">
+            <img src="image/img (7).jpeg">
+            <p class="captionText"></p>
+        </div>
+        <div class="imageHolder">
+            <img src="image/img (4).jpeg">
+            <p class="captionText"></p>
+        </div>
+    </div>
+    <div id="dotsContainer"></div>
+</div>
+        <script src="js/myScript.js"></script>
+        
+
+<?--selling part-->
+<div id="trend">
+  <b class="blinking" style="color:crimson; text-align: center; display:inline-block;">#NOW TRENDING</b>
+</div>
+<div id="space"></div>
+  <div id="selling">
+  	<div id="column1">
+  		<img src="image/column1.jpg" class="imgfit">
+
+  		
+  		<h6 class="sname">Women Printed Straight Kurta  (White, Blue)</h6>
+     <p>Price:</p><h5 class="sprice">₹356</h5><h5 class="dprice">₹1,799</h5>
+     <p>you save:</p><h5 class="svep">₹ 1443.00 (80%)</h5><br>
+     <a href="#" class="buyb">Buy now</a>
+  	</div>
+
+  	<div id="column2">
+
+  		<img src="image/column2.jpg" class="imgfit">
+
+  		
+  		<h6 class="sname">Women Embroidered Anarkali Kurta  (Green)</h6>
+     <p>Price:</p><h5 class="sprice">₹583 </h5><h5 class="dprice">₹1,499</h5>
+     <p>you save:</p><h5 class="svep">₹916 (61%)</h5><br>
+     <a href="#" class="buyb">Buy now</a>
+  		
+  	</div>
+
+  	<div id="column3">
+  		
+  		<img src="image/column3.jpg" class="imgfit">
+
+  		
+  		<h6 class="sname">Embroidered Satin Anarkali  (Blue, Pink)</h6>
+     <p>Price:</p><h5 class="sprice">₹629</h5><h5 class="dprice">₹ 2,999.00 </h5>
+     <p>you save:</p><h5 class="svep">₹2,370.00 (79%)</h5><br>
+     <a href="#" class="buyb">Buy now</a>
+
+  	</div>
+
+  	<div id="column4">
+  		
+  		<img src="image/column4.jpg" class="imgfit">
+
+  		
+  		<h6 class="sname">Casual Solid Women Kurti  (Grey)</h6>
+     <p>Price:</p><h5 class="sprice">₹ 409.00 </h5><h5 class="dprice">₹ 1,199.00 </h5>
+     <p>you save:</p><h5 class="svep">₹ 790.00 (65%)</h5><br>
+     <a href="#" class="buyb">Buy now</a>
+
+  	</div>
+
+  	<div id="column5">
+  		
+  		<img src="image/column5.jpg" class="imgfit">
+
+  		
+  		<h6 class="sname">Embroidered  Lehenga, Choli and Dupatta Set</h6>
+     <p>Price:</p><h5 class="sprice">₹699.00 </h5><h5 class="dprice">₹1,499.00</h5>
+     <p>you save:</p><h5 class="svep">₹800.00 (53%)</h5><br>
+     <a href="#" class="buyb">Buy now</a>
+
+  	</div>
+  	
+  </div>
+
+         
+
+
+
+  <div id="footer">
+
+    <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+          
+    </ul>
+          <p> &copy; 2016 |Designed by VAIISHAALINI</p>   
+  </div> 
+ </body>
+</html>

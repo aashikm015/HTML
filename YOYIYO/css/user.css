@@ -1,0 +1,80 @@
+
+body
+{
+	margin:0;
+	padding: 0;
+}
+
+ul
+{
+	margin:0;
+	padding: 0;
+}
+#sidenav
+{
+	position: fixed;
+	left:-200px;
+	background:#fff;
+	height: 100%;
+	width: 200px;
+	transition: all 500ms linear;
+
+}
+
+#sidenav.active
+{
+	left:0;
+}
+
+#sidenav ul li
+{
+	color: #000000;
+	list-style: none;
+	padding: 20px 30px;
+	border-bottom: 1px solid #ddd;
+	font-family: poppins;
+
+}
+
+#sidenav .btn-area
+{
+	position: absolute;
+	left: 230px;
+	top: 20px;
+	font-size: 35px;
+}
+
+#sidenav .btn-area:hover
+{
+	cursor: pointer;
+}
+.main-content
+{
+	width: 900px;
+	margin:0 auto;
+	padding: 7%;
+}
+
+.main-content h2
+{
+   font-size: 45px;
+   font-family: baloo;
+}
+.main-content
+{
+	font-family: poppins;
+}
+
+
+.main-content a
+{
+	background: #262626;
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	margin-top: 30px;
+	color: #fff;
+}
+
+

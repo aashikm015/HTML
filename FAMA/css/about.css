@@ -1,0 +1,141 @@
+#topbar{
+	background-color:#162643;
+	height:30px;
+	width:100%;
+	color: red;
+}
+body
+{
+	background-color:white;
+        margin:0;
+        padding:0;
+}
+#container
+{	
+	width:100%;	
+}
+#header
+{
+
+	height:80px;
+	background-color: #FEFEFE;
+}
+#header img
+{
+	height: 80px;
+
+}
+#header ul
+{
+	float: right;
+	margin-top: 25px;
+}
+#header ul li
+{
+	
+	display: inline;
+	margin-right: 50px;
+}
+
+#header ul li a
+{
+	color:grey;
+	text-decoration: none;
+	font-size: 18px;
+    padding: 10px;	
+}
+.active
+{
+    font-weight: bold;
+
+    text-decoration:underline;
+	padding: 10px,10px;
+}
+#banner img
+{
+	width: 100%;
+    height: 500px;
+    padding-bottom: 20px;
+}
+ #banner
+ {
+ 	background:#DFDFDF ;
+ 	height: 471px;
+ 	width: 100%;
+ }
+#content1
+{
+ 
+ margin-left: 20px;
+ padding: 10px;
+ background: #DFDFDF;
+}
+#content2
+{
+	width: 42%;
+	height:370px;
+	background: url(back.jpg);
+	float: left;
+	margin-bottom: 20px;
+ 
+
+}
+#content3
+{
+	padding-left: 30px;
+	width: 42%;
+	height:370px;
+	background: #DFDFDF;
+	float: right;
+	margin-bottom: 20px;
+
+}
+.heading
+{
+	margin-left: 30px;
+	color: black;
+	margin-left: 10px;
+	font-size: 30px;
+}
+.para1
+{
+	color:black;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+}
+.fit1
+{
+	width: 100%;
+}
+#footer
+{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	clear: both;
+}
+#footer ul
+{
+	float: left;
+	margin-top: 25px;
+}
+#footer ul li
+{
+	
+	display: inline;
+	margin-right: 50px;
+}
+
+#footer ul li a
+{
+	color:grey;
+	text-decoration: none;
+	font-size: 18px;	
+}
+#footer p
+{
+	color: white;
+	float: right;
+	margin-right: 20px;
+}
